@@ -1,0 +1,6 @@
+{
+    "require": {
+        "deanblackborough/php-quill-renderer": "^4.01",
+        "phpoffice/phpspreadsheet": "^1.23"
+    }
+}

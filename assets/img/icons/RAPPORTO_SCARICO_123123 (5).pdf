@@ -1,0 +1,14 @@
+<br />
+<b>Notice</b>:  Undefined index: lista in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>656</b><br />
+<br />
+<b>Notice</b>:  Undefined index: colli_mancanti in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>657</b><br />
+<br />
+<b>Notice</b>:  Undefined index: totali in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>658</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /var/www/html/gsm/php/fpdf/fpdf.php:271
+Stack trace:
+#0 /var/www/html/gsm/php/fpdf/fpdf.php(1060): FPDF-&gt;Error()
+#1 /var/www/html/gsm/php/fpdf/fpdf.php(999): FPDF-&gt;_checkoutput()
+#2 /var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php(716): FPDF-&gt;Output()
+#3 {main}
+  thrown in <b>/var/www/html/gsm/php/fpdf/fpdf.php</b> on line <b>271</b><br />

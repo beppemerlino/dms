@@ -1,0 +1,32 @@
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>469</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>469</b><br />
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>470</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>470</b><br />
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>478</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>478</b><br />
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>486</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>486</b><br />
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>494</b><br />
+<br />
+<b>Warning</b>:  array_key_exists() expects parameter 2 to be array, null given in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>494</b><br />
+<br />
+<b>Notice</b>:  Undefined offset: 0 in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>502</b><br />
+<br />
+<b>Warning</b>:  array_key_exists() expects parameter 2 to be array, null given in <b>/var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php</b> on line <b>502</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /var/www/html/gsm/php/fpdf/fpdf.php:271
+Stack trace:
+#0 /var/www/html/gsm/php/fpdf/fpdf.php(1060): FPDF-&gt;Error()
+#1 /var/www/html/gsm/php/fpdf/fpdf.php(999): FPDF-&gt;_checkoutput()
+#2 /var/www/html/gsm/php/pdf_colli_nonletti_giorno_scarico.php(580): FPDF-&gt;Output()
+#3 {main}
+  thrown in <b>/var/www/html/gsm/php/fpdf/fpdf.php</b> on line <b>271</b><br />

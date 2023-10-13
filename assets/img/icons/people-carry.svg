@@ -1,0 +1,3 @@
+<template #cell(Servizio)="row">
+                        <b-button v-if="row.item.servizio.dpd_classic" no-caret v-b-tooltip.hover :title="Servizio Classic" class="border-0 bg-transparent p-0" v-on:click="ModificaServizio(row.item)"><img src="../../../assets/images/dpd_classic.svg" height="25" /></b-button>
+                    </template>
